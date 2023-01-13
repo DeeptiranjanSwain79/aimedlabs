@@ -114,6 +114,10 @@ const FirstCheckHolder = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 `
 
 const CheckHolder = styled.div`
