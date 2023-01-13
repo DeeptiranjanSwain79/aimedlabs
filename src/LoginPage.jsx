@@ -77,6 +77,7 @@ const FormContainer = styled.form`
         box-shadow: none;
         height: 100vh;
         overflow: hidden;
+        padding: 0;
     }
 `
 
