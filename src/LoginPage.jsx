@@ -77,6 +77,7 @@ const FormContainer = styled.form`
         box-shadow: none;
         height: 90vh;
         overflow: hidden;
+        padding: 0;
     }
 `
 
@@ -115,7 +116,7 @@ const FirstCheckHolder = styled.div`
     justify-content: space-between;
     width: 100%;
     @media screen and (max-width: 600px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: flex-start;
     }
 `
