@@ -75,9 +75,8 @@ const FormContainer = styled.form`
     @media screen and (max-width: 600px){
         width: 100%;
         box-shadow: none;
-        height: 100vh;
+        height: 90vh;
         overflow: hidden;
-        padding: 0;
     }
 `
 
