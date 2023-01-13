@@ -116,7 +116,7 @@ const FirstCheckHolder = styled.div`
     width: 100%;
     @media screen and (max-width: 600px) {
         flex-direction: column;
-        justify-content: flex-start;
+        align-items: flex-start;
     }
 `
 
